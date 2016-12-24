@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/lay_marg"
+        android:textSize="@dimen/text_size" />
+
+
+    <TextView
+        android:id="@+id/tv_weather_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginTop="@dimen/lay_marg"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tv_weather_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_weather_info"
+        android:layout_marginTop="@dimen/lay_marg"
+        android:textSize="@dimen/text_size" />
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_weather_description"
+        android:layout_marginTop="@dimen/lay_marg"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tv_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_temp"
+        android:layout_marginTop="@dimen/lay_marg"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tv_wind_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_humidity"
+        android:layout_marginTop="@dimen/lay_marg"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tv_wind_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_wind_speed"
+        android:layout_marginTop="@dimen/lay_marg"
+        android:textSize="@dimen/text_size" />
+
+
+</RelativeLayout>
